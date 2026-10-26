@@ -1,0 +1,269 @@
+#map-container {
+    position: relative;
+}
+
+.realm {
+    position: absolute;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Example positions */
+
+#lorthamir {
+    top: 1130px;
+    left: 865px;
+}
+
+#hylaren {
+    top: 595px;
+    left: 1380px;
+}
+
+#naboran {
+    top: 1300px;
+    left: 1430px;
+}
+
+#hisuya {
+    top: 600px;
+    left: 2160px;
+}
+
+#nordahl {
+    top: 350px;
+    left: 340px;
+}
+
+#vorthic {
+    top: 1100px;
+    left: 390px;
+}
+
+#castelle {
+    top: 1330px;
+    left: 370px;
+}
+
+#illycia {
+    top: 1200px;
+    left: 550px;
+}
+
+#ruhelin {
+    top: 940px;
+    left: 650px;
+}
+
+#svea {
+    top: 800px;
+    left: 700px;
+}
+
+#skaldrin {
+    top: 900px;
+    left: 320px;
+}
+
+#kovira {
+    top: 1160px;
+    left: 1220px;
+}
+
+#osmana {
+    top: 960px;
+    left: 1350px;
+}
+
+#falken {
+    top: 610px;
+    left: 790px;
+}
+
+#ilyrion {
+    top: 320px;
+    left: 990px;
+}
+
+#tavaryn {
+    top: 220px;
+    left: 1370px;
+}
+
+#farondel {
+    top: 350px;
+    left: 1850px;
+}
+
+#isvalen {
+    top: 230px;
+    left: 2500px;
+}
+
+#hatenor {
+    top: 850px;
+    left: 2245px;
+}
+
+#nareth {
+    top: 870px;
+    left: 1850px;
+}
+
+#valzar {
+    top: 960px;
+    left: 1615px;
+}
+
+#cinderock {
+    top: 1550px;
+    left: 2270px;
+}
+
+#yuria {
+    top: 1370px;
+    left: 2430px;
+}
+
+#iriphit {
+    top: 1290px;
+    left: 2655px;
+}
+
+#okana {
+    top: 1210px;
+    left: 2360px;
+}
+
+body {
+    background-color: #bcc5d3;
+    color: #f4eed8;
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 3rem;
+    color: #f5f0d8;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#map-container {
+    position: relative;
+}
+
+#world-map {
+    width: 80vw;
+    max-width: none;
+    display: block;
+
+    box-shadow:
+        0 0 25px rgba(0,0,0,0.2),
+        0 0 50px rgba(0,0,0,0.1);
+}
+
+/* Realm labels */
+
+.realm {
+
+    position: absolute;
+
+    background: none;
+    border: none;
+
+    color: #f4eed8;
+
+    font-family: Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    text-shadow:
+        0 0 3px black,
+        1px 1px 3px black,
+        0 0 10px rgba(0,0,0,0.4);
+
+    transition: all 0.25s ease;
+}
+
+.realm:hover {
+
+    color: #ffe28a;
+
+    transform: scale(1.12);
+
+    text-shadow:
+        0 0 6px #ffe28a,
+        0 0 12px #ffe28a,
+        0 0 20px rgba(255,226,138,0.6);
+}
+
+/* Click effect */
+
+.realm:active {
+    transform: scale(0.98);
+}
+
+/* Information panel */
+
+#info-panel {
+
+    width: 320px;
+    min-height: 300px;
+
+    background: rgba(20, 20, 20, 0.75);
+
+    border: 1px solid rgba(244,238,216,0.25);
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    backdrop-filter: blur(6px);
+
+    box-shadow:
+        0 0 20px rgba(0,0,0,0.35);
+}
+
+#info-panel h2 {
+
+    margin-top: 0;
+
+    color: #ffe28a;
+
+    border-bottom: 1px solid rgba(255,226,138,0.3);
+
+    padding-bottom: 10px;
+
+    font-size: 28px;
+}
+
+#info-panel p {
+
+    line-height: 1.6;
+    font-size: 24px;
+}
+
+/* Optional decorative horizontal line */
+
+hr {
+    border: none;
+    height: 1px;
+    background: rgba(244,238,216,0.2);
+}
