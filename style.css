@@ -276,7 +276,7 @@ hr {
     }
 
     .realm {
-        font-size: 6px;
+        font-size: 6px !important;
         letter-spacing: 1px;
     }
 
