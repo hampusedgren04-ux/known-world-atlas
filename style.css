@@ -268,3 +268,35 @@ hr {
     height: 1px;
     background: rgba(244,238,216,0.2);
 }
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .realm {
+        font-size: 10px;
+        letter-spacing: 1px;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info-panel {
+        width: 90%;
+        min-height: auto;
+        margin-top: 20px;
+    }
+
+    #info-panel h2 {
+        font-size: 22px;
+    }
+
+    #info-panel p {
+        font-size: 16px;
+    }
+
+}
