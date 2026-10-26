@@ -1,141 +1,143 @@
 #map-container {
     position: relative;
+    width: fit-content;
 }
 
 .realm {
     position: absolute;
+    transform: translate(-50%, -50%);
     background: none;
     border: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     cursor: pointer;
 }
 
 /* Example positions */
 
 #lorthamir {
-    top: 1130px;
-    left: 865px;
+    top: 67%;
+    left: 31%;
 }
 
 #hylaren {
-    top: 595px;
-    left: 1380px;
+    top: 37%;
+    left: 47%;
 }
 
 #naboran {
-    top: 1300px;
-    left: 1430px;
+    top: 76%;
+    left: 49%;
 }
 
 #hisuya {
-    top: 600px;
-    left: 2160px;
+    top: 38%;
+    left: 74%;
 }
 
 #nordahl {
-    top: 350px;
-    left: 340px;
+    top: 20%;
+    left: 16%;
 }
 
 #vorthic {
-    top: 1100px;
-    left: 390px;
+    top: 66%;
+    left: 15%;
 }
 
 #castelle {
-    top: 1330px;
-    left: 370px;
+    top: 80%;
+    left: 14%;
 }
 
 #illycia {
-    top: 1200px;
-    left: 550px;
+    top: 72%;
+    left: 20%;
 }
 
 #ruhelin {
-    top: 940px;
-    left: 650px;
+    top: 56%;
+    left: 24%;
 }
 
 #svea {
-    top: 800px;
-    left: 700px;
+    top: 48%;
+    left: 25%;
 }
 
 #skaldrin {
-    top: 900px;
-    left: 320px;
+    top: 53%;
+    left: 13%;
 }
 
 #kovira {
-    top: 1160px;
-    left: 1220px;
+    top: 70%;
+    left: 42%;
 }
 
 #osmana {
-    top: 960px;
-    left: 1350px;
+    top: 58%;
+    left: 46%;
 }
 
 #falken {
-    top: 610px;
-    left: 790px;
+    top: 37%;
+    left: 28%;
 }
 
 #ilyrion {
-    top: 320px;
-    left: 990px;
+    top: 19%;
+    left: 35%;
 }
 
 #tavaryn {
-    top: 220px;
-    left: 1370px;
+    top: 13%;
+    left: 47%;
 }
 
 #farondel {
-    top: 350px;
-    left: 1850px;
+    top: 21%;
+    left: 63%;
 }
 
 #isvalen {
-    top: 230px;
-    left: 2500px;
+    top: 13%;
+    left: 86%;
 }
 
 #hatenor {
-    top: 850px;
-    left: 2245px;
+    top: 50%;
+    left: 76%;
 }
 
 #nareth {
-    top: 870px;
-    left: 1850px;
+    top: 55%;
+    left: 63%;
 }
 
 #valzar {
-    top: 960px;
-    left: 1615px;
+    top: 58%;
+    left: 55%;
 }
 
 #cinderock {
-    top: 1550px;
-    left: 2270px;
+    top: 92%;
+    left: 78%;
 }
 
 #yuria {
-    top: 1370px;
-    left: 2430px;
+    top: 82%;
+    left: 82%;
 }
 
 #iriphit {
-    top: 1290px;
-    left: 2655px;
+    top: 77%;
+    left: 89%;
 }
 
 #okana {
-    top: 1210px;
-    left: 2360px;
+    top: 72%;
+    left: 80%;
 }
 
 body {
@@ -164,11 +166,11 @@ h1 {
 
 #map-container {
     position: relative;
+    width: fit-content;
 }
 
 #world-map {
-    width: 3000px;
-    max-width: none;
+    width: 100%;
     display: block;
 
     box-shadow:
@@ -188,7 +190,7 @@ h1 {
     color: #f4eed8;
 
     font-family: Georgia, serif;
-    font-size: 1.1rem;
+    font-size: 0.875rem;
     font-weight: bold;
     letter-spacing: 2px;
 
@@ -203,10 +205,9 @@ h1 {
 }
 
 .realm:hover {
-
     color: #ffe28a;
 
-    transform: scale(1.12);
+    transform: translate(-50%, -50%) scale(1.12);
 
     text-shadow:
         0 0 6px #ffe28a,
@@ -217,7 +218,7 @@ h1 {
 /* Click effect */
 
 .realm:active {
-    transform: scale(0.98);
+    transform: translate(-50%, -50%) scale(0.98);
 }
 
 /* Information panel */
