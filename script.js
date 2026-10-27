@@ -1,7 +1,7 @@
 const realms = {
 
     lorthamir: {
-        name: "Lorthamir",
+        name: "Lorthen Empire",
         capital: "Solanor",
         ruler: "Gweniv II"
     },
@@ -19,7 +19,7 @@ const realms = {
     },
 
     nordahl: {
-        name: "Nordahl",        
+        name: "High Kingdom of Nordahl",        
         capital: "Hrafngard",
         ruler: "Ulfram Dragon-Ruler"
     },
@@ -37,25 +37,25 @@ const realms = {
     },
 
     vorthic: {
-        name: "Vorthic",
+        name: "Kingdom of Vorthic",
         capital: "Velmira",
         ruler: "Vladan III",
     },
 
     illycia: {
-        name: "Illycia",
+        name: "Illycian Commonwealth",
         capital: "Rosclair",
         ruler: "Seraphine"
     },
 
     castelle: {
-        name: "Castelle",
+        name: "Kingdom of Castelle",
         capital: "Montport",
         ruler: "Esteban"
     },
 
     ruhelin: {
-        name: "Ruhelin",
+        name: "Kingdom of Ruhelin",
         capital: "Westgate",
         ruler: "Floris"
     },
@@ -67,55 +67,55 @@ const realms = {
     },
 
     svea: {
-        name: "Svea",
+        name: "Kingdom of Svea",
         capital: "Aldvik",
         ruler: "Eirikur V"
     },
 
     isvalen: {
-        name: "Isvalen",
+        name: "Isvalen Imperium",
         capital: "Eisspire",
         ruler: "Valeria"
     },
 
     nareth: {
-        name: "Nareth",
+        name: "Kingdom of Nareth",
         capital: "Caermor",
         ruler: "Odran"
     },
 
     valzar: {
-        name: "Valzar",
+        name: "Valzar Sultanate",
         capital: "Tal Khar",
         ruler: "Malik Varos"
     },
 
     farondel: {
-        name: "Farondel",
+        name: "Kingdom of Farondel",
         capital: "Silvergarden",
         ruler: "Jian"
     },
 
     tavaryn: {
-        name: "Tavaryn",
+        name: "Kingdom of Tavaryn",
         capital: "Frostrest",
         ruler: "Ryenar"
     },
 
     falken: {
-        name: "Falken",
+        name: "Free Kingdom of Falken",
         capital: "Wolfsbay",
         ruler: "Freifn"
     },
 
     ilyrion: {
-        name: "Ilyrion",
+        name: "Kingdom of Ilyrion",
         capital: "Erthyll",
         ruler: "Aursif"
     },
 
     osmana: {
-        name: "Osmana",
+        name: "Osmanan State",
         capital: "Omaris",
         ruler: "Ardunn"
     },
@@ -145,7 +145,7 @@ const realms = {
     },
 
     kovira: {
-        name: "Kovira",
+        name: "Sublime Realm of Kovira",
         capital: "Tejan",
         ruler: "Saleddan"
     },
