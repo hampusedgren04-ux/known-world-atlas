@@ -3,61 +3,61 @@ const realms = {
     lorthamir: {
         name: "Lorthen Empire",
         capital: "Solanor",
-        ruler: "Gweniv II"
+        ruler: "Emperor Gweniv II, The Black Sun"
     },
 
     hylaren: {
         name: "Hylaren Crownlands",
         capital: "Rhoam",
-        ruler: "Borhan"
+        ruler: "King Borhan The Hammer"
     },
 
     naboran: {
         name: "Naboran Sultanate",
         capital: "An Nabor",
-        ruler: "Nabor VI"
+        ruler: "Sultan Nabor VI, En Gazi"
     },
 
     nordahl: {
         name: "High Kingdom of Nordahl",        
         capital: "Hrafngard",
-        ruler: "Ulfram Dragon-Ruler"
+        ruler: "High King Ulfram Dragon-Ruler"
     },
 
     hisuya: {
         name: "Great Hisuya",
         capital: "Golden Seat",
-        ruler: "Tian"
+        ruler: "Tian, Heaven's Mandate"
     },
 
     hatenor: {
         name: "Hatenor Shogunate",
         capital: "Eikyo",
-        ruler: "Nomori"
+        ruler: "Shogun Nomori"
     },
 
     vorthic: {
         name: "Kingdom of Vorthic",
         capital: "Velmira",
-        ruler: "Vladan III",
+        ruler: "King Vladan III",
     },
 
     illycia: {
         name: "Illycian Commonwealth",
         capital: "Rosclair",
-        ruler: "Seraphine"
+        ruler: "Queen Seraphine"
     },
 
     castelle: {
         name: "Kingdom of Castelle",
         capital: "Montport",
-        ruler: "Esteban"
+        ruler: "King Esteban"
     },
 
     ruhelin: {
         name: "Kingdom of Ruhelin",
         capital: "Westgate",
-        ruler: "Floris"
+        ruler: "King Floris"
     },
 
     skaldrin: {
@@ -69,49 +69,49 @@ const realms = {
     svea: {
         name: "Kingdom of Svea",
         capital: "Aldvik",
-        ruler: "Eirikur V"
+        ruler: "King Eirikur V"
     },
 
     isvalen: {
         name: "Isvalen Imperium",
         capital: "Eisspire",
-        ruler: "Valeria"
+        ruler: "Empress Valeria"
     },
 
     nareth: {
         name: "Kingdom of Nareth",
         capital: "Caermor",
-        ruler: "Odran"
+        ruler: "King Odran"
     },
 
     valzar: {
         name: "Valzar Sultanate",
         capital: "Tal Khar",
-        ruler: "Malik Varos"
+        ruler: "Vizir Malik Varos"
     },
 
     farondel: {
         name: "Kingdom of Farondel",
         capital: "Silvergarden",
-        ruler: "Jian"
+        ruler: "King Jian"
     },
 
     tavaryn: {
         name: "Kingdom of Tavaryn",
         capital: "Frostrest",
-        ruler: "Ryenar"
+        ruler: "King Ryenar"
     },
 
     falken: {
         name: "Free Kingdom of Falken",
         capital: "Wolfsbay",
-        ruler: "Freifn"
+        ruler: "King Freifn"
     },
 
     ilyrion: {
         name: "Kingdom of Ilyrion",
         capital: "Erthyll",
-        ruler: "Aursif"
+        ruler: "King Aursif"
     },
 
     osmana: {
@@ -123,7 +123,7 @@ const realms = {
     cinderock: {
         name: "Cinderock",
         capital: "Ironharbour",
-        ruler: "Embrun"
+        ruler: "Commander Embrun"
     },
 
     yuria: {
@@ -147,7 +147,7 @@ const realms = {
     kovira: {
         name: "Sublime Realm of Kovira",
         capital: "Tejan",
-        ruler: "Saleddan"
+        ruler: "Grand Vizir Saleddan"
     },
 
 };
